@@ -138,7 +138,7 @@ export default function Home() {
 <p className="font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
 </div>
 </span>
-
+<p></p>
 <section className="mt-[300px] min-h-96 relative flex flex-1 shrink-0 space-x-20 overflow-hidden rounded-lg bg-gray-100 py-16 shadow-lg md:py-10 xl:py-32"> 
     
         <div className="absolute inset-0 bg-orange-50 mix-blend-multiply"></div>
