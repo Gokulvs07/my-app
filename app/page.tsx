@@ -1,113 +1,169 @@
 import Image from 'next/image'
 
 export default function Home() {
-  return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
-        <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
-          Get started by editing&nbsp;
-          <code className="font-mono font-bold">app/page.tsx</code>
-        </p>
-        <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
-          <a
-            className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{' '}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className="dark:invert"
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
+  return (    
+    <main className='bg-white'>
+    <div className="bg-white pb-6 sm:pb-8 lg:pb-12">
+    <div className="mx-auto max-w-screen-2xl px-4 md:px-8">
+    <nav className="sticky top-0 z-50 ">
+        <div className="w-10/12 mx-auto py-5 flex justify-between items-center min-w-full bg-white font-roboto">
+            <div>
+            <Image src = "/ahead.png" width={100} height={100} alt = "ahead"/>
+            </div>
+            <div>
+                <button className="py-2 px-5 text-black">
+                    Emotions
+                </button>
+                <button className="py-2 px-5 text-black">
+                    Manifesto
+                </button>
+                <button className="py-2 px-5 text-black">
+                    Self-awareness test
+                </button>
+                <button className="py-2 px-5 text-black">
+                    Work with us
+                </button>
+            </div>
+            <div className="space-x-0.5">
+                <button className="py-2 px-5 rounded-full border border-black bg-transparent text-black hover:bg-black hover:text-white transition-all">Download app</button>
+                </div>
+            
+            </div>
+   </nav>
+        <section className="min-h-96 relative flex flex-1 shrink-0 items-center space-x-20 overflow-hidden rounded-lg bg-gray-100 py-16 shadow-lg md:py-20 xl:py-48"> 
+    
+        <div className="absolute inset-0 bg-violet-100 mix-blend-multiply"></div>
+
+        <div className="relative flex flex-col  p-4 sm:max-w-xl">
+            <p className="space-y-6 mb-4 text-left text-lg text-black sm:text-xl md:mb-8">Ahead app</p>
+            <h1 className="mb-8 max-w-2xl text-left text-4xl font-bold text-black  sm:text-5xl md:mb-12 md:text-6xl">Master your Life by Mastering emotions</h1>
+            
+            <div className='flex space-x-10'>
+            <button type="button" className="flex items-center justify-center w-48 text-white bg-black h-14 rounded-xl">
+        <div className="mr-3">
+            <svg viewBox="0 0 384 512" width="30">
+                <path fill="currentColor"
+                    d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5q0 39.3 14.4 81.2c12.8 36.7 59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5 102.6-119.3-65.2-30.7-61.7-90-61.7-91.9zm-56.6-164.2c27.3-32.4 24.8-61.9 24-72.5-24.1 1.4-52 16.4-67.9 34.9-17.5 19.8-27.8 44.3-25.6 71.9 26.1 2 49.9-11.4 69.5-34.3z">
+                </path>
+            </svg>
         </div>
+        <div>
+            <div className="text-xs">
+                Download on the
+            </div>
+            <div className="-mt-1 font-sans text-xl font-semibold">
+                App Store
+            </div>
+        </div>
+    </button>
+
+        
+    <span className="space-y-3">
+    <div className="flex items-center">
+        <svg className="w-4 h-4 text-yellow-400 ms-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+            <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
+        </svg>
+        <svg className="w-4 h-4 text-yellow-400 ms-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+            <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
+        </svg>
+        <svg className="w-4 h-4 text-yellow-400 ms-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+            <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
+        </svg>
+        <svg className="w-4 h-4 text-yellow-400 ms-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+            <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
+        </svg>
+        <svg className="w-4 h-4 text-yellow-400 ms-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+            <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
+        </svg>
+    </div>
+    <div className=" text-gray-500">100+ AppStore reviews</div>
+    </span>
+    </div>
+   
       </div>
+      <div className='relative flex h-[600px] w-screen items-center justify-center before:absolute before:h-[640px] before:w-[640px] before:rounded-full before:bg-violet-200'>
+    <div className='z-10 h-[480px]'>
+    <div className="relative mx-10 border-gray-800 dark:border-gray-800 bg-gray-800 border-[14px] rounded-[2.5rem] h-[600px] w-[300px]">
+    <div className="h-[32px] w-[3px] bg-gray-800 dark:bg-gray-800 absolute -start-[17px] top-[72px] rounded-s-lg"></div>
+    <div className="h-[46px] w-[3px] bg-gray-800 dark:bg-gray-800 absolute -start-[17px] top-[124px] rounded-s-lg"></div>
+    <div className="h-[46px] w-[3px] bg-gray-800 dark:bg-gray-800 absolute -start-[17px] top-[178px] rounded-s-lg"></div>
+    <div className="h-[64px] w-[3px] bg-gray-800 dark:bg-gray-800 absolute -end-[17px] top-[142px] rounded-e-lg"></div>
+    <div className="rounded-[2rem] overflow-hidden w-[272px] h-[572px] bg-white dark:bg-gray-800">
+        
+    </div>
+    </div>
+    </div>
+</div>
+<div></div>
+    </section>
 
-      <div className="relative flex place-items-center before:absolute before:h-[300px] before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 before:lg:h-[360px] z-[-1]">
-        <Image
-          className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
 
-      <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Docs{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Find in-depth information about Next.js features and API.
-          </p>
-        </a>
+    <ul className="m-10 py-20 space-x-20 grid grid-cols-3 gap-5 items-left  text-gray-900 dark:text-white">
+    <li>
+        <span className='text-4xl  font-bold'>EQ beats IQ</span>
+    </li>
+    <li>
+    <span className='text-md font-medium max-w-50'>People with high emotional intelligence (EQ) live more fulfilled lives. They tend to be happier and have healthier relationships</span>
+    </li>
+    <li>
+    <span className='text-md font-medium max-w-50'>They are more successful in their pursuits and make for inspiring leaders. According to science, they earn $29k a year</span>
+    </li>
+    <li></li>
+    </ul>
+    
+    <div className='m-2 py-10 text-5xl font-bold text-black'>Does this sound familiar...</div>
+    <span className='grid grid-cols-4 space-x-6'>
+    <div className="block space-y-6 max-w-sm p-6 bg-sky-200 border border-gray-200 rounded-lg shadow ">
+    <Image src = "/Angry Emoji.png" width={50} height={50} alt = "ahead"/>
+<h5 className="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white">Squabble with your partner</h5>
+<p className="font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
+</div>
 
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Learn{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Learn about Next.js in an interactive course with&nbsp;quizzes!
-          </p>
-        </a>
+<div className="block space-y-6 max-w-sm p-6 bg-violet-100 border border-gray-200 rounded-lg shadow ">
+    <Image src = "/Angry Emoji.png" width={50} height={50} alt = "ahead"/>
+<h5 className="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white">You argue with a colleague</h5>
+<p className="font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
+</div>
 
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Templates{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Explore starter templates for Next.js.
-          </p>
-        </a>
 
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Deploy{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
+<div className="mx-10 -rotate-[10deg] block space-y-6 max-w-sm p-6 bg-violet-500 border border-gray-200 rounded-lg shadow ">
+    <Image src = "/Flushed Face Emoji.png" width={50} height={50} alt = "ahead"/>
+<h5 className="mb-2 text-xl font-bold tracking-tight text-white">You get a promotion at work</h5>
+<p className="font-normal text-white">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
+</div>
+
+<div className="block space-y-6 max-w-sm p-6 bg-orange-200 border border-gray-200 rounded-lg shadow ">
+    <Image src = "/Thinking Emoji.png" width={50} height={50} alt = "ahead"/>
+<h5 className="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white">You attend a class reunion</h5>
+<p className="font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
+</div>
+</span>
+
+<section className="my-[300px]  min-h-96 relative flex flex-1 shrink-0 items-center space-x-20 overflow-hidden rounded-lg bg-gray-100 py-16 shadow-lg md:py-10 xl:py-48"> 
+    
+        <div className="absolute inset-0 bg-orange-50 mix-blend-multiply"></div>
+
+        <div className="relative flex flex-col  p-4 sm:max-w-xl">
+            <p className="space-y-6 mb-4 text-left text-lg text-black sm:text-medium md:mb-8">Built out of frustration</p>
+            <h1 className="mb-8 max-w-2xl text-left text-4xl font-bold text-black  sm:text-3xl md:mb-12 md:text-5xl">Meet the ahead app</h1>
+            
+            <div className='flex space-x-10'>
+           
+    </div>
+    </div>
+   
+    </section>
+
+
+
+
+
+
+
+    </div>
+    </div>
+
+   
     </main>
   )
 }
